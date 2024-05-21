@@ -10,11 +10,8 @@ import time
 from bs4 import BeautifulSoup
 
 
+# メイン処理(処理フローの集約)
 def main():
-    """
-    メイン処理
-        処理フローの集約
-    """
     # ユーザーの入力
     user_input_tuple = user_input()
 
@@ -114,7 +111,8 @@ def select_weather_observatory(block_no):
 
 
 def scraping_day_per_hour(url, date, facility_type):
-    """指定URLから雨量データをスクレイピングし、1日分のデータを取得
+    """スクレイピングの関数
+        指定URLから雨量データをスクレイピングし、1日分のデータを取得
 
     Args:
         url (str): スクレイピング対象のURL
@@ -158,15 +156,13 @@ def scraping_day_per_hour(url, date, facility_type):
 
 
 def string_to_float(weather_data):
-    """文字列を浮動小数点数に変換
-
-    文字列を浮動小数点数に変換し、変換に失敗した場合は0を返します。
+    """文字列を浮動小数点数に変換する関数
 
     Args:
-        weather_data (str): 変換対象の文字列。
+        weather_data (str): 変換対象の文字列
 
     Returns:
-        float: 変換された浮動小数点数。変換に失敗した場合は0を返します。
+        float: 変換した浮動小数点数、変換失敗時は0を返す
     """
     try:
         return float(weather_data)
