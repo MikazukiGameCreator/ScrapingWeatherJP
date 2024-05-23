@@ -65,8 +65,8 @@ def create_csv_hour(user_input_tuple):
 
         date = start_date
         while date <= end_date:
-            # 1秒間処理を中断(サイト負荷軽減)
-            time.sleep(1)
+            # 一時的に処理中断(サイト負荷軽減)
+            time.sleep(0.5)
             print(date)
 
             # 対象url
@@ -207,7 +207,7 @@ def user_input():
     input("はいの場合、何かキーを押してください...\n")
     
     print("雨量データの取得中...")
-    print(" ※気象庁サイトへの負荷軽減のため、データを1日取得ごとに1秒停止してます")
+    print(" ※気象庁サイトへの負荷軽減のため、データを1日取得ごとに0.5秒停止してます")
 
     start_input_list = start_input.split('/')
     end_input_list = end_input.split('/')
