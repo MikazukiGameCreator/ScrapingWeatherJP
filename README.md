@@ -1,4 +1,4 @@
 ### 使い方
 
-24/05/23
-作成中...
+下記YouTubeにまとめました↓↓↓
+https://youtu.be/NgkWD1hoHx0
