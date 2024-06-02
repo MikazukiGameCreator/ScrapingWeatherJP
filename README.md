@@ -4,9 +4,8 @@
 
 ### ◆使い方
 
-　Windowsの場合
- scraping_weather.exeをクリックで実行できます（使い方は下記動画参照）
-  https://youtu.be/NgkWD1hoHx0
+　・Windowsの場合：scraping_weather.exeをクリックで使用できます。（使い方は下記動画参照）
   
- Macの場合
-   scraping_weather.pyを実行で使用できます
+　　https://youtu.be/NgkWD1hoHx0
+  
+　・Macの場合：scraping_weather.pyを実行で使用できます。
