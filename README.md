@@ -4,6 +4,6 @@
 
 ### ◆使い方
 
-　下記YouTubeにまとめました↓↓↓
+　下記YouTubeにて閲覧できます↓↓↓
 
 https://youtu.be/NgkWD1hoHx0
